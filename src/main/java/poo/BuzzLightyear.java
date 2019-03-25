@@ -11,10 +11,20 @@ public class BuzzLightyear {
     private String frase5 =   "Eu sou Buzz Lightear, patrulheiro espacial";
     private String frase6 =   "Buzz Lightyear, desligando!!";
 
-
-
-
-
     private Random rand = new Random();
+
+    public String BotaoAzul() {
+    }
+    public String BotaoVermelho() {
+    }
+    public String BotaoVerde() {
+    }
+    public String BotaoRedondo() {
+    }
+    public String BotaoLazer() {
+    }
+    public String BotaoKarate() {
+    }
+
 
 }

@@ -20,10 +20,14 @@ public class BuzzLightyear {
         String a =  frases[rand.nextInt(6)];
         return a;
     }
-//    public String BotaoVermelho() {
-//    }
-//    public String BotaoVerde() {
-//    }
+    public String BotaoVermelho() {
+        String a =  frases[rand.nextInt(6)];
+        return a;
+    }
+    public String BotaoVerde() {
+        String a =  frases[rand.nextInt(6)];
+        return a;
+    }
 //    public String BotaoRedondo() {
 //    }
 //    public String BotaoLazer() {

@@ -1,8 +1,14 @@
 package poo;
 
+import com.sun.org.apache.bcel.internal.generic.RETURN;
+
 import java.util.Random;
 
 public class BuzzLightyear {
+
+
+    private boolean capaceteAberto;
+    private boolean asaAberta;
 
 
     private String frase1 =   "Eu sou Buzz Lightyear";
@@ -34,6 +40,33 @@ public class BuzzLightyear {
 //    }
 //    public String BotaoKarate() {
 //    }
+
+
+    public boolean isCapaceteAberto(){
+        return capaceteAberto;
+    }
+
+    public void setCapacete(){
+
+        capaceteAberto =! capaceteAberto;
+
+    }
+
+    public void setAsaAberta(){
+
+        asaAberta =! asaAberta;
+
+    }
+
+    public boolean isAsaAberta(){
+        return asaAberta;
+    }
+
+
+
+
+
+
 
 
 }
